@@ -18,7 +18,7 @@ let score ;
 
 initialGame();
 
-function initialGame(){
+export function initialGame(){
     score = 0;
     scoreText.innerHTML = "deine Score : 0";
     colorizeItems;
@@ -26,7 +26,7 @@ function initialGame(){
 }
 colorizeItems()
 
-function colorizeItems(){
+export function colorizeItems(){
 
     let mainColor = colors[Math.floor(Math.random() * colors.length)];
 

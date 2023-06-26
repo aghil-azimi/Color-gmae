@@ -54,6 +54,7 @@
     width: 45rem;
     height: 45rem;
     max-width: fit-content;
+    object-fit: cover;
     
 
 }
